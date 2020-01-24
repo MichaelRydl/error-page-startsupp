@@ -1,3 +1,5 @@
+/* -------------------- Reset -------------------- */
+
 *,
 *::after,
 *::before {
@@ -5,6 +7,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* -------------------- General -------------------- */
 
 html {
     font-size: 62.5%;
@@ -42,6 +46,8 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+/* -------------------- Header -------------------- */
+
 .error-page-header {
     width: 69.6rem;
     height: 20.2rem;
@@ -78,6 +84,8 @@ h1, h2, h3, h4, h5, h6 {
     right: 0;
     z-index: -1;
 }
+
+/* -------------------- Cards -------------------- */
 
 .cards__wrapper {
     display: flex;
@@ -117,10 +125,14 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.1rem;
 }
 
+/* -------------------- Footer -------------------- */
+
 .error-page-footer__text {
     padding: .15rem 10.1rem;
     margin-bottom: 1.67rem;
 }
+
+/* -------------------- Media Queries -------------------- */
 
 @media screen and (min-width: 451px) and (max-width: 850px) {
     html {
