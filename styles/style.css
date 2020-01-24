@@ -150,11 +150,12 @@ h1, h2, h3, h4, h5, h6 {
 
     .cards__wrapper {
         height: 50vh;
+        align-items: center;
     }
 
     .card {
         margin: 0;
-        min-height: 100%;
+        max-height: 100%;
     }
 
     .card:last-child {
