@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>error_page</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" type="image/png" href="assets/error-illustration.png" />
+</head>
+
+<body>
+    <section class="error-page">
+        <div class="wrapper">
+            <div class="background-ellipse"></div>
+            <header class="error-page-header">
+                <picture>
+                    <source srcset="assets/error-illustration@2x.png" media="(max-width: 931px" )>
+                    <img src="assets/error-illustration.png" alt="Error logo společnosti Smartsupp"
+                        class="error-page__error-illustration">
+                </picture>
+                <h1 class="error-page-header__heading">Ouha. Máte zastaralý prohlížeč.</h1>
+                <p class="error-page-header__subheading">Stáhněte si prosím modernější prohlížeč, na kterém si
+                    užijete
+                    chatování se
+                    zákazníky naplno.</p>
+            </header>
+            <div class="cards">
+                <div class="cards__wrapper">
+                    <div class="card card--chrome">
+                        <picture>
+                            <source srcset="assets/chrome@2x.png" media="(min-width: 2100px" )>
+                            <img src="assets/chrome.png" alt="Logo prohlížeče Google Chrome" class="card__image">
+                        </picture>
+                        <h2 class="card__heading">Chrome</h2>
+                        <h3 class="card__subheading">version 30+</h3>
+                    </div>
+                    <div class="card card--firefox">
+                        <picture>
+                            <source srcset="assets/firefox@2x.png" media="(min-width: 2100px" )>
+                            <img src="assets/firefox.png" alt="Logo prohlížeče Mozilla Firefox" class="card__image">
+                        </picture>
+                        <h2 class="card__heading">Firefox</h2>
+                        <h3 class="card__subheading">version 30+</h3>
+                    </div>
+                    <div class="card card--edge">
+                        <picture>
+                            <source srcset="assets/edge@2x.png" media="(min-width: 2100px" )>
+                            <img src="assets/edge.png" alt="Logo prohlížeče MS Edge" class="card__image">
+                        </picture>
+                        <h2 class="card__heading">Edge</h2>
+                        <h3 class="card__subheading">version 30+</h3>
+                    </div>
+                    <div class="card card--safari">
+                        <picture>
+                            <source srcset="assets/safari@2x.png" media="(min-width: 2100px" )>
+                            <img src="assets/safari.png" alt="Logo prohlížeče Safari" class="card__image">
+                        </picture>
+                        <h2 class="card__heading">Safari</h2>
+                        <h3 class="card__subheading">version 30+</h3>
+                    </div>
+                </div>
+            </div>
+            <footer class="error-page-footer">
+                <p class="error-page-footer__text">Stažení proběhne přímo z oficiálního webu společnosti.</p>
+                <a href="https://www.smartsupp.com/cs/" target="_blank" class="website-link"><img
+                        src="assets/smartsupp-logo.svg" alt="Logo společnosti Smartsupp"></a>
+            </footer>
+        </div>
+    </section>
+</body>
+
+</html>
